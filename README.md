@@ -7,12 +7,12 @@ This document outlines the development tasks for the Climbing Gym Web App. We ar
 -   **Step 1: Project Initialization & Environment**
     -   [x] Initialize Next.js project (TypeScript, App Router, `src/`, ESLint, Tailwind CSS installed)
     -   [x] Configure VS Code (Open folder, Optional: Gemini Code Assist)
-    -   [ ] Set up Supabase Project (on supabase.com)
-    -   [ ] Note down Project URL and anon public key
-    -   [ ] Configure Environment Variables (`.env.local` for Supabase URL/keys)
-    -   [ ] Add `.env.local` to `.gitignore` (ensure it's present)
-    -   [ ] Install Supabase Client Library (`@supabase/supabase-js`)
-    -   [ ] Install Supabase Server-Side Rendering Helpers (`@supabase/ssr`)
+    -   [x] Set up Supabase Project (on supabase.com)
+    -   [x] Note down Project URL and anon public key
+    -   [x] Configure Environment Variables (`.env.local` for Supabase URL/keys)
+    -   [x] Add `.env.local` to `.gitignore` (ensure it's present)
+    -   [x] Install Supabase Client Library (`@supabase/supabase-js`)
+    -   [x] Install Supabase Server-Side Rendering Helpers (`@supabase/ssr`)
     -   [ ] Initialize Supabase Client Instances (using `@supabase/ssr` helpers for browser, server components, route handlers)
 
 ## PHASE 2: DATABASE SCHEMA
